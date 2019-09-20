@@ -1,0 +1,51 @@
+{
+    "python.pythonPath": "C:\\Users\\dukdu\\AppData\\Local\\Programs\\Python\\Python37\\python.exe",
+    "workbench.colorTheme": "Predawn",
+    "workbench.iconTheme": "ayu",
+    "workbench.settings.editor": "json",
+    "python.formatting.provider": "yapf",
+    "python.formatting.blackArgs": [],
+    "python.formatting.yapfArgs": [
+        "--style",
+        "{COLUMN_LIMIT: 120, SPACES_BEFORE_COMMENT: 2, INDENT_BLANK_LINES: True}"
+    ],
+    // "python.formatting.yapfArgs": [
+    //     "--style",
+    //     "{based_on_style: yapf, COLUMN_LIMIT: 120, SPLIT_BEFORE_FIRST_ARGUMENT: False, ALIGN_CLOSING_BRACKET_WITH_VISUAL_INDENT: True, ALLOW_SPLIT_BEFORE_DICT_VALUE: False, SPLIT_BEFORE_LOGICAL_OPERATOR: True, SPACES_BEFORE_COMMENT: 2, INDENT_BLANK_LINES: True}"
+    // ],
+    "editor.formatOnSave": true,
+    "editor.fontSize": 14,
+    "code-runner.executorMap": {
+        "python": "$pythonPath -u $fullFileName"
+    },
+    "code-runner.clearPreviousOutput": true,
+    "code-runner.showExecutionMessage": false,
+    "python.linting.enabled": true,
+    "python.linting.pylintEnabled": true,
+    "python.linting.pylintUseMinimalCheckers": true,
+    "python.linting.pylintArgs": [
+        "--generate-members",
+        "--enable=F,E,W"
+    ],
+    "python.linting.flake8Enabled": true,
+    "python.linting.flake8Args": [
+        "--max-line-length=120",
+        "--ignore=E402,F841,F401,E302,E305,W503,W293",
+    ],
+    "[python]": {
+        "editor.defaultFormatter": "ms-python.python",
+    },
+    "cSpell.userWords": [
+        "algs",
+        "cplex",
+        "ctrs",
+        "dests",
+        "docplex",
+        "gurobipy",
+        "mipgap",
+        "numpy",
+        "objfunc",
+        "scal",
+        "vals"
+    ]
+}
